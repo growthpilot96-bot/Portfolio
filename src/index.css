@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Syne', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', 'Inter', sans-serif;
+    --font-serif: 'Instrument Serif', 'Playfair Display', serif;
+    
+    --bg-main: #08090B;
+    --bg-card: #0F1115;
+    --bg-card-hover: #15181F;
+    --bg-elevated: #1B1E26;
+    
+    --accent: #E5C378;
+    --accent-hover: #F3D58C;
+    --accent-dim: rgba(229, 195, 120, 0.12);
+    
+    --text-primary: #F4F4F6;
+    --text-secondary: #9CA3AF;
+    --text-muted: #6B7280;
+    
+    --border-subtle: rgba(255, 255, 255, 0.07);
+    --border-highlight: rgba(255, 255, 255, 0.16);
+    --border-accent: rgba(229, 195, 120, 0.35);
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #08090B;
+    color: #F4F4F6;
+    min-height: 100vh;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #08090B;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #232731;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3B4252;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-serif-luxury {
+  font-family: 'Instrument Serif', 'Playfair Display', serif;
+}
+
+.font-body {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+}
+
+/* Glassmorphism & Borders */
+.glass-panel {
+  background: rgba(15, 17, 21, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-nav {
+  background: rgba(8, 9, 11, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.card-luxury {
+  background: linear-gradient(180deg, rgba(21, 24, 31, 0.85) 0%, rgba(13, 15, 18, 0.95) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  transition: border-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.card-luxury:hover {
+  border-color: rgba(229, 195, 120, 0.35);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.7), 0 0 30px -10px rgba(229, 195, 120, 0.12);
+}
+
+/* Subtle background glowing spots */
+.glow-spot-gold {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(229, 195, 120, 0.08) 0%, rgba(229, 195, 120, 0) 70%);
+  pointer-events: none;
+  filter: blur(40px);
+}
+
+.glow-spot-teal {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(45, 106, 79, 0.07) 0%, rgba(45, 106, 79, 0) 70%);
+  pointer-events: none;
+  filter: blur(50px);
+}
+
+/* Grid overlay background */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+
+/* Luxury hairline underlines */
+.hairline-hover {
+  position: relative;
+}
+.hairline-hover::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--accent);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hairline-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* 3D Perspective utils */
+.perspective-1000 {
+  perspective: 1000px;
+}
+.perspective-2000 {
+  perspective: 2000px;
+}
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Badge styling */
+.tag-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #D1D5DB;
+}
+
+.tag-badge-gold {
+  background: rgba(229, 195, 120, 0.1);
+  border: 1px solid rgba(229, 195, 120, 0.25);
+  color: #E5C378;
+}
