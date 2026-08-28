@@ -20,7 +20,7 @@ export interface Project {
 export const projectsData: Project[] = [
   {
     id: 'apex-fitness',
-    title: 'IronForge — High-Performance Athletic Club',
+    title: 'IronForge - High-Performance Athletic Club',
     brandName: 'IronForge Club',
     tagline: 'Transforming members through athletic discipline, certified coaching, and world-class equipment.',
     industry: 'Fitness & Sports Wellness',
@@ -64,7 +64,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'dental-studio',
-    title: 'Nivora Dental Studio — Modern Dentistry & Thoughtful Care',
+    title: 'Nivora Dental Studio - Modern Dentistry & Thoughtful Care',
     brandName: 'Nivora Dental Studio',
     tagline: 'Modern dentistry that puts patient comfort, clinical precision, and long-term oral health first.',
     industry: 'Healthcare & Specialized Dentistry',
@@ -103,7 +103,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'lan-commerce',
-    title: 'LUXE Atelier — Editorial Luxury Fashion & Essentials',
+    title: 'LUXE Atelier - Editorial Luxury Fashion & Essentials',
     brandName: 'LUXE Atelier',
     tagline: 'A modern atelier of considered essentials, crafted in limited runs from fine natural fibres.',
     industry: 'High-End E-Commerce & Fashion',
@@ -142,7 +142,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'goa-wellness',
-    title: 'Sereno Wellness Spa — Candolim Luxury Sanctuary',
+    title: 'Sereno Wellness Spa - Candolim Luxury Sanctuary',
     brandName: 'Sereno Wellness Spa',
     tagline: 'Professional massage and wellness therapies designed for deep relaxation, recovery, and renewal.',
     industry: 'Hospitality & Holistic Wellness',
@@ -181,7 +181,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'smile-care',
-    title: 'Poplar Dental Studio — Patient-Centred Dental Practice',
+    title: 'Poplar Dental Studio - Patient-Centred Dental Practice',
     brandName: 'Poplar Dental Studio',
     tagline: 'Modern, patient-first dental care combining clinical expertise, cutting-edge tools, and thoughtful comfort.',
     industry: 'Healthcare & Family Dentistry',
@@ -220,7 +220,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'mangrove-udupi',
-    title: 'Mangrove Kayaking Point — Sunrise Backwater Expedition',
+    title: 'Mangrove Kayaking Point - Sunrise Backwater Expedition',
     brandName: 'Mangrove Kayaking Udupi',
     tagline: 'Paddle hidden mangrove root tunnels and mirror-still backwaters at sunrise on the Karnataka coast.',
     industry: 'Eco-Tourism & Adventure Travel',
@@ -259,7 +259,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'aura-digital',
-    title: 'Maison Serène — Luxury Spa & Wellness Rituals',
+    title: 'Maison Serène - Luxury Spa & Wellness Rituals',
     brandName: 'Maison Serène',
     tagline: 'Personalised spa rituals and quiet luxury in Bandra West, tended by master therapists.',
     industry: 'Luxury Wellness & Personal Care',
@@ -298,7 +298,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'luxe-spaces',
-    title: 'Maison Atelier — Interior Design & Architecture Studio',
+    title: 'Maison Atelier - Interior Design & Architecture Studio',
     brandName: 'Maison Atelier',
     tagline: 'Designing spaces that inspire life. Award-winning residential and commercial architecture.',
     industry: 'Architecture & High-End Interiors',
@@ -337,7 +337,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'wonderlux-travels',
-    title: 'Wanderlux Travels — Luxury Tour Packages & Custom Itineraries',
+    title: 'Wanderlux Travels - Luxury Tour Packages & Custom Itineraries',
     brandName: 'Wanderlux Travels',
     tagline: 'Crafting extraordinary journeys worldwide with handpicked luxury stays, private guides, and zero hassle.',
     industry: 'Luxury Travel & Itinerary Design',
@@ -376,7 +376,7 @@ export const projectsData: Project[] = [
   },
   {
     id: 'grand-journey',
-    title: 'Wanderlust Voyages — Tours, Taxi & Luxury Fleet Rentals',
+    title: 'Wanderlust Voyages - Tours, Taxi & Luxury Fleet Rentals',
     brandName: 'Wanderlust Voyages',
     tagline: 'Domestic and international tours, tempo travellers, and tourist coach rentals under one trusted roof.',
     industry: 'Tourism & Specialized Fleet Logistics',
@@ -422,7 +422,7 @@ export const servicesData = [
     subtitle: 'Brand-Aligned Digital Flagships',
     desc: 'Custom, high-conversion websites designed from the ground up to communicate prestige, establish market authority, and turn casual visitors into committed clients.',
     deliverables: ['Custom Visual Identity & Layouts', 'Responsive Mobile-First Architecture', 'Interactive Prototypes', 'Asset Optimization'],
-    timeline: '2–3 Weeks'
+    timeline: '2-3 Weeks'
   },
   {
     num: '02',
@@ -430,7 +430,7 @@ export const servicesData = [
     subtitle: 'Frictionless User Pathways',
     desc: 'Deep information architecture, intentional visual hierarchy, and strategic user journeys engineered to eliminate cognitive friction and maximize conversion rates.',
     deliverables: ['User Flow & Wireframing', 'Friction Audit & CRO Strategy', 'Checkout / Booking Funnels', 'Design Systems & UI Kits'],
-    timeline: '1–2 Weeks'
+    timeline: '1-2 Weeks'
   },
   {
     num: '03',
@@ -438,7 +438,7 @@ export const servicesData = [
     subtitle: 'High-Conversion Launchpads',
     desc: 'Targeted, laser-focused landing pages crafted for product launches, ad campaigns, and lead generation with persuasive messaging and clear calls to action.',
     deliverables: ['Hero Conversion Architecture', 'Persuasive Copy Layout', 'Speed & Performance Optimization', 'A/B Testing Framework'],
-    timeline: '5–7 Days'
+    timeline: '5-7 Days'
   },
   {
     num: '04',
@@ -446,7 +446,7 @@ export const servicesData = [
     subtitle: 'Clean, Fast, Responsive Code',
     desc: 'Pixel-perfect, lightweight, and modern frontend implementations using React, TypeScript, Tailwind CSS, and clean semantic HTML for fast load speeds.',
     deliverables: ['Clean Semantic Codebase', 'Zero Cumulative Layout Shifts', 'Cross-Browser & Mobile QA', 'SEO & OpenGraph Integration'],
-    timeline: '2–3 Weeks'
+    timeline: '2-3 Weeks'
   },
   {
     num: '05',
@@ -462,7 +462,7 @@ export const servicesData = [
     subtitle: 'Elevating Legacy Platforms',
     desc: 'Transform outdated, sluggish, or poor-converting legacy websites into cutting-edge, mobile-optimized digital flagships that command premium pricing.',
     deliverables: ['Legacy Architecture Audit', 'Modern Brand Refresh', 'Content & SEO Preservation', 'Zero-Downtime Launch Plan'],
-    timeline: '3–4 Weeks'
+    timeline: '3-4 Weeks'
   }
 ];
 
@@ -480,7 +480,7 @@ export const processStages = [
   {
     step: '03',
     title: 'High-Fidelity Design',
-    desc: 'We create the visual language — typography, luxury neutral palette, tactile spacing, and editorial compositions tailored to your niche.'
+    desc: 'We create the visual language - typography, luxury neutral palette, tactile spacing, and editorial compositions tailored to your niche.'
   },
   {
     step: '04',
@@ -518,6 +518,6 @@ export const philosophyPillars = [
   {
     num: '04',
     title: 'Animated With Purpose',
-    desc: 'Animations guide human attention, provide tactile feedback, and create brand memory — never slowing down or distracting from content.'
+    desc: 'Animations guide human attention, provide tactile feedback, and create brand memory - never slowing down or distracting from content.'
   }
 ];

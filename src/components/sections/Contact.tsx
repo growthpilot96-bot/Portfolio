@@ -76,7 +76,7 @@ export const Contact: React.FC<ContactProps> = ({ initialScope }) => {
             </h2>
 
             <p className="text-base sm:text-lg text-white/70 font-light leading-relaxed">
-              Whether you need a brand-new digital flagship, an aggressive UI/UX overhaul, or a high-converting landing page — I'm ready to turn your vision into an unforgettable digital reality.
+              Whether you need a brand-new digital flagship, an aggressive UI/UX overhaul, or a high-converting landing page - I'm ready to turn your vision into an unforgettable digital reality.
             </p>
 
             {/* Quick Contact Buttons */}

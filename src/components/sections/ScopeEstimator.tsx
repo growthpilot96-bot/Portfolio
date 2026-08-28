@@ -26,8 +26,8 @@ export const ScopeEstimator: React.FC<ScopeEstimatorProps> = ({ onApplyScope }) 
   ];
 
   const timelineOptions = [
-    { name: 'Expedited (1–2 Weeks)', desc: 'Priority dedicated sprint delivery' },
-    { name: 'Standard (2–3 Weeks)', desc: 'Full discovery, design & engineering passes' },
+    { name: 'Expedited (1-2 Weeks)', desc: 'Priority dedicated sprint delivery' },
+    { name: 'Standard (2-3 Weeks)', desc: 'Full discovery, design & engineering passes' },
     { name: 'Flexible (4+ Weeks)', desc: 'Staggered milestones & phased rollouts' }
   ];
 

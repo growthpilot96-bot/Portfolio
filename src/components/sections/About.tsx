@@ -65,7 +65,7 @@ export const About: React.FC = () => {
                   Direct Collaboration
                 </span>
                 <p className="text-xs text-white/60 font-light">
-                  You work directly with the senior designer and engineer building your product — zero agency bureaucracy.
+                  You work directly with the senior designer and engineer building your product - zero agency bureaucracy.
                 </p>
               </div>
             </div>

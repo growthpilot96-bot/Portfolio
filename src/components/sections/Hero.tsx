@@ -90,7 +90,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreWork, onOpenProject }) => {
               transition={{ duration: 0.7, delay: 0.2 }}
               className="text-base sm:text-lg text-white/70 max-w-2xl leading-relaxed font-light"
             >
-              I help ambitious businesses stand out with custom digital flagships — combining editorial luxury, high-converting UX architecture, and bespoke Framer Motion interactions.
+              I help ambitious businesses stand out with custom digital flagships - combining editorial luxury, high-converting UX architecture, and bespoke Framer Motion interactions.
             </motion.p>
 
             {/* CTAs */}
