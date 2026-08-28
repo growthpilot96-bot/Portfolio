@@ -226,7 +226,7 @@ export const projectsData: Project[] = [
     industry: 'Eco-Tourism & Adventure Travel',
     category: 'Travel & Adventure',
     url: 'https://mangrove-udupi.demowork963.workers.dev/',
-    thumbnail: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=1200&auto=format&fit=crop',
+    thumbnail: '/images/mangrove-kayak.jpg',
     badge: 'Cinematic Storytelling',
     palette: [
       { name: 'Estuary Charcoal', hex: '#161B1D' },
